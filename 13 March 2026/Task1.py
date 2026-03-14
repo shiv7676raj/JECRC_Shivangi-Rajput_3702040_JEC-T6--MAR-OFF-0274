@@ -1,0 +1,26 @@
+from selenium import webdriver
+from time import sleep
+from selenium.webdriver.common.by import By
+
+opts=webdriver.ChromeOptions()
+opts.add_experimental_option('detach', True)
+driver=webdriver.Chrome(options=opts)
+driver.get('https://www.cricbuzz.com/')
+driver.maximize_window()
+sleep(4)
+header=driver.find_element(By.ID,'main-header')
+iframe_name=driver.find_element(By.NAME,'googlefcPresent')
+className=driver.find_elements(By.CLASS_NAME,'mt-6')
+print(className)
+i=driver.find_elements(By.TAG_NAME,'span')
+print(len(i))
+an=driver.find_element(By.CSS_SELECTOR,'a[href*="cricbuzz"]')
+print('a',an)
+# icon=driver.find_element(By.XPATH,"//span[contains(@class,'cb-search-icon')]")
+# print(icon)
+live_scores=driver.find_element(By.XPATH,"//a[contains(text(),'Live Scores')]")
+print(live_scores)
+news=driver.find_elements(By.XPATH,"//h4[@class='cb-nws-hdln-ancr text-hvr-underline']")
+print("Total news articles:",len(news))
+print("Successfully found the elements")
+driver.quit()
