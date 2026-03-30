@@ -1,0 +1,14 @@
+1774604528904	geckodriver	INFO	Listening on 127.0.0.1:57531
+1774604532090	mozrunner::runner	INFO	Running command: "C:\\Users\\HP\\.cache\\selenium\\firefox\\win64\\149.0\\firefox.exe" "--marionette" "--remote-debugging-por ... 7532" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileFrOJ2q"
+Dynamically enable window occlusion 0
+1774604534296	Marionette	INFO	Marionette enabled
+1774604534746	Marionette	INFO	Listening on port 57539
+WebDriver BiDi listening on ws://127.0.0.1:57532
+Read port: 57539
+1774604535069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Calling WaitFlushedEvent::Run: is delayed: 2120
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+1774604551887	Marionette	INFO	Stopped listening on port 57539
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

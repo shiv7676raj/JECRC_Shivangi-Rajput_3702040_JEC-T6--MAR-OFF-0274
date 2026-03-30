@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.5 on win32)" generated="2026-03-27T11:30:43.212326" rpa="false" schemaversion="5">
+<suite id="s1" name="Open Browser" source="C:\Users\HP\PycharmProjects\PythonProject\27 March 2026\open_browser.robot">
+<test id="s1-t1" name="Opening Chrome Browser" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-27T11:30:43.919755" level="INFO">Opening browser 'chrome' to base url 'https://www.cricbuzz.com/'.</msg>
+<arg>https://www.cricbuzz.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-27T11:30:43.918381" elapsed="15.212532"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-27T11:30:59.151829" elapsed="1.511658"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-03-27T11:31:00.665055" level="INFO">navigated to cricbuzz</msg>
+<arg>navigated to cricbuzz</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-03-27T11:31:00.664418" elapsed="0.000750"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>navigated to cricbuzz</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-27T11:31:00.665725" elapsed="0.000600"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-27T11:31:03.668096" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-27T11:31:00.666732" elapsed="3.002444"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-27T11:31:03.694596" elapsed="4.942162"/>
+</kw>
+<doc>Chrome browser navigating to https://www.cricbuzz.com/</doc>
+<status status="PASS" start="2026-03-27T11:30:43.916604" elapsed="24.722597"/>
+</test>
+<doc>Opening of browsers</doc>
+<status status="PASS" start="2026-03-27T11:30:43.216679" elapsed="25.428305"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Open Browser" id="s1" pass="1" fail="0" skip="0">Open Browser</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

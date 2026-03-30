@@ -1,0 +1,25 @@
+1774595451911	geckodriver	INFO	Listening on 127.0.0.1:55310
+1774595455200	mozrunner::runner	INFO	Running command: "C:\\Users\\HP\\.cache\\selenium\\firefox\\win64\\149.0\\firefox.exe" "--marionette" "--remote-debugging-por ... 5311" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofilewt6Grp"
+Dynamically enable window occlusion 0
+1774595457910	Marionette	INFO	Marionette enabled
+1774595458083	Marionette	INFO	Listening on port 55332
+WebDriver BiDi listening on ws://127.0.0.1:55311
+Read port: 55332
+1774595458353	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+1774595476385	Marionette	INFO	Stopped listening on port 55332
+console.error: AboutNewTabResourceMapping: "train-hop add-on install failure: Error: Unexpected download cancelled while downloading xpi from https://archive.mozilla.org/pub/system-addons/newtab/newtab-150.1.0-build1/newtab.xpi"
+Dynamically enable window occlusion 1
+JavaScript warning: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603230101/pubads_impl.js?cb=31097371, line 19: Script terminated by timeout at:
+bk@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603230101/pubads_impl.js?cb=31097371:19:58488
+kk@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603230101/pubads_impl.js?cb=31097371:19:60506
+ny@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603230101/pubads_impl.js?cb=31097371:19:160025
+Sda<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603230101/pubads_impl.js?cb=31097371:19:481962
+sV.prototype.K@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603230101/pubads_impl.js?cb=31097371:19:330379
+mV.prototype.start/<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603230101/pubads_impl.js?cb=31097371:19:329465
+zD@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603230101/pubads_impl.js?cb=31097371:19:195682
+BD/this.next@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603230101/pubads_impl.js?cb=31097371:19:195976
+b@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202603230101/pubads_impl.js?cb=31097371:19:196228
+
+console.error: Translations: "Failed to run language detection." (new AbortError("Actor 'Translations' destroyed before query 'Translations:GetDocumentElementLang' was resolved", (void 0)))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
