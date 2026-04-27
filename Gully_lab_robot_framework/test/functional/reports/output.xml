@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.5 on win32)" generated="2026-04-04T15:16:20.026433" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Homepage" source="C:\Users\HP\PycharmProjects\PythonProject\Gully Labs\test\functional\test_homepage.robot">
+<test id="s1-t1" name="TC01 Log In User" line="8">
+<kw name="Open Application" owner="common_resources" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:16:21.386846" level="INFO">Opening browser 'chrome' to base url 'https://gullylabs.com/'.</msg>
+<arg>${url}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-04-04T15:16:21.386438" elapsed="39.553228"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-04-04T15:17:01.309885" elapsed="2.611392"/>
+</kw>
+<arg>https://gullylabs.com/</arg>
+<doc>Opens the application</doc>
+<status status="PASS" start="2026-04-04T15:16:21.384993" elapsed="42.547747"/>
+</kw>
+<kw name="Log in to application" owner="home_page">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:17:04.374136" level="INFO">Clicking element 'xpath=//i[@class='g-user']'.</msg>
+<arg>${account}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-04T15:17:04.261093" elapsed="15.420633"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-04T15:17:19.698912" level="INFO">Clickig on login link</msg>
+<arg>Clickig on login link</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-04T15:17:19.682533" elapsed="0.016644"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:17:19.700452" level="INFO">Typing text 'adronaldo71@gmail.com' into text field 'xpath=//input[@id="CustomerEmail"]'.</msg>
+<arg>${email}</arg>
+<arg>${mail}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-04T15:17:19.699616" elapsed="0.385138"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-04T15:17:20.085657" level="INFO">Entering email</msg>
+<arg>Entering email</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-04T15:17:20.085125" elapsed="0.000655"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:17:20.089000" level="INFO">Typing text 'tony123' into text field 'xpath=//input[@id="CustomerPassword"]'.</msg>
+<arg>${password}</arg>
+<arg>${pwd}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-04T15:17:20.086479" elapsed="0.341825"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-04T15:17:20.429337" level="INFO">Entering password</msg>
+<arg>Entering password</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-04T15:17:20.428679" elapsed="0.000874"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:17:20.430396" level="INFO">Clicking element 'xpath=//button[text()="Sign in"]'.</msg>
+<arg>${btn}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-04-04T15:17:20.429873" elapsed="14.961855"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:17:36.341575" level="INFO">Current page contains text 'Account'.</msg>
+<arg>Account</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-04-04T15:17:35.391930" elapsed="0.949844"/>
+</kw>
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<msg time="2026-04-04T15:17:36.372504" level="INFO">Current page contains element 'xpath=//a[text()="Log out"]'.</msg>
+<arg>xpath=//a[text()="Log out"]</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2026-04-04T15:17:36.342623" elapsed="0.030087"/>
+</kw>
+<arg>adronaldo71@gmail.com</arg>
+<arg>tony123</arg>
+<doc>to login the existing user</doc>
+<status status="PASS" start="2026-04-04T15:17:04.223440" elapsed="32.149550"/>
+</kw>
+<kw name="Close Application" owner="common_resources" type="TEARDOWN">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-04-04T15:17:36.590768" elapsed="7.587179"/>
+</kw>
+<status status="PASS" start="2026-04-04T15:17:36.589859" elapsed="7.588361"/>
+</kw>
+<doc>check if the user is able to login</doc>
+<tag>functional</tag>
+<status status="PASS" start="2026-04-04T15:16:21.382775" elapsed="82.795781"/>
+</test>
+<status status="PASS" start="2026-04-04T15:16:20.034740" elapsed="84.147880"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">functional</stat>
+</tag>
+<suite>
+<stat name="Test Homepage" id="s1" pass="1" fail="0" skip="0">Test Homepage</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
